@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>Adds moderate obfuscation capabilities</Description>
+		<Authors>Joshua Gwynn-Palmer</Authors>
+		<Copyright>Joshua Gwynn-Palmer</Copyright>
+		<Version>1.0.0</Version>
+		<PackageId>JGP.Obfuscation</PackageId>
+		<PackageDescription>Adds moderate obfuscation capabilities</PackageDescription>
+		<RepositoryUrl>https://github.com/gwynnPalmer/JGP.Obfuscation</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\JGP.Extensions\JGP.Extensions.csproj" />
+	</ItemGroup>
+
+</Project>
